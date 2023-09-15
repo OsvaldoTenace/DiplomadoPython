@@ -1,0 +1,3 @@
+correo = input()
+l = correo.split()
+print(l)

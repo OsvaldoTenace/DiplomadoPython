@@ -1,0 +1,11 @@
+palabra = input()
+vocales = ["a","e","i","o","u"]
+c = []
+for x in range(0,len(palabra)):
+    if (palabra[x].lower()) in vocales:
+        c.append(palabra[x])
+
+cantidad_vocales = len(c)
+
+print(f"Cantidad de vocales: {cantidad_vocales}")
+        

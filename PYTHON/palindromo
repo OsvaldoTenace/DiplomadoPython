@@ -1,0 +1,14 @@
+lista = [] 
+n = int(input()) 
+for i in range(n):
+  lista.append(input())
+
+palindromo = []
+
+for i in range(1,n+1):
+    palindromo.append(lista[-i])
+    
+if palindromo == lista:
+    print(True)
+else:
+    print(False)
